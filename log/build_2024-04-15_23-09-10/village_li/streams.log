@@ -1,0 +1,24 @@
+[1.309s] Invoking command in '/home/tzq/town_ws/src/village_li': PYTHONPATH=/home/tzq/town_ws/build/village_li/prefix_override:/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tzq/town_ws/build/village_li/build install --record /home/tzq/town_ws/build/village_li/install.log --single-version-externally-managed
+[1.682s] running egg_info
+[1.685s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[1.688s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[1.689s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[1.689s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[1.690s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[1.695s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[1.696s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.698s] running build_py
+[1.698s] running install
+[1.699s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.699s]   warnings.warn(
+[1.701s] running install_lib
+[1.706s] running install_data
+[1.708s] running install_egg_info
+[1.714s] removing '/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[1.714s] Copying ../../build/village_li/village_li.egg-info to /home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[1.718s] running install_scripts
+[1.752s] Installing li3_node script to /home/tzq/town_ws/install/village_li/lib/village_li
+[1.753s] Installing li4_node script to /home/tzq/town_ws/install/village_li/lib/village_li
+[1.754s] writing list of installed files to '/home/tzq/town_ws/build/village_li/install.log'
+[1.781s] Invoked command in '/home/tzq/town_ws/src/village_li' returned '0': PYTHONPATH=/home/tzq/town_ws/build/village_li/prefix_override:/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tzq/town_ws/build/village_li/build install --record /home/tzq/town_ws/build/village_li/install.log --single-version-externally-managed

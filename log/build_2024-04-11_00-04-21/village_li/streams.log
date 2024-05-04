@@ -1,0 +1,22 @@
+[1.626s] Invoking command in '/home/tzq/town_ws/src/village_li': PYTHONPATH=/home/tzq/town_ws/build/village_li/prefix_override:/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/tzq/town_ws/build/village_li/build install --record /home/tzq/town_ws/build/village_li/install.log --single-version-externally-managed
+[2.061s] running egg_info
+[2.065s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[2.067s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[2.068s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[2.069s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[2.070s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[2.073s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.075s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.076s] running build
+[2.076s] running build_py
+[2.077s] running install
+[2.077s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.077s]   warnings.warn(
+[2.078s] running install_lib
+[2.080s] running install_data
+[2.081s] running install_egg_info
+[2.084s] removing '/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[2.085s] Copying ../../build/village_li/village_li.egg-info to /home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[2.087s] running install_scripts
+[2.132s] Installing li4_node script to /home/tzq/town_ws/install/village_li/lib/village_li
+[2.135s] writing list of installed files to '/home/tzq/town_ws/build/village_li/install.log'

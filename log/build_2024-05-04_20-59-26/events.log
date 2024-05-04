@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000209] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000233] (village_interfaces) JobQueued: {'identifier': 'village_interfaces', 'dependencies': OrderedDict()}
+[0.001275] (village_interfaces) JobStarted: {'identifier': 'village_interfaces'}
+[0.066872] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'cmake'}
+[0.068717] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'build'}
+[0.069526] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tzq/town_ws/build/village_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/tzq/town_ws/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tzq'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tzq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1636'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tzq'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tzq-vpc:@/tmp/.ICE-unix/1636,unix/tzq-vpc:/tmp/.ICE-unix/1636'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b2834be_cc0b_40f2_8ee7_0e72671535b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZBT5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-821fc0527f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.937'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tzq/town_ws/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099716] (-) TimerEvent: {}
+[0.206713] (-) TimerEvent: {}
+[0.207003] (village_interfaces) StdoutLine: {'line': b'[  2%] Built target village_interfaces__cpp\n'}
+[0.277830] (village_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o\x1b[0m\n'}
+[0.286671] (village_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_village_interfaces\n'}
+[0.307147] (-) TimerEvent: {}
+[0.349389] (village_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[0.407888] (-) TimerEvent: {}
+[0.508355] (-) TimerEvent: {}
+[0.597056] (village_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o\x1b[0m\n'}
+[0.610623] (-) TimerEvent: {}
+[0.711216] (-) TimerEvent: {}
+[0.772240] (village_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o\x1b[0m\n'}
+[0.811523] (-) TimerEvent: {}
+[0.911949] (-) TimerEvent: {}
+[0.937032] (village_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.964124] (village_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[1.012980] (-) TimerEvent: {}
+[1.058110] (village_interfaces) StdoutLine: {'line': b'[ 17%] Built target village_interfaces__rosidl_generator_c\n'}
+[1.113328] (-) TimerEvent: {}
+[1.157156] (village_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o\x1b[0m\n'}
+[1.214140] (-) TimerEvent: {}
+[1.314846] (-) TimerEvent: {}
+[1.415379] (-) TimerEvent: {}
+[1.459671] (village_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o\x1b[0m\n'}
+[1.515586] (-) TimerEvent: {}
+[1.617605] (-) TimerEvent: {}
+[1.718460] (-) TimerEvent: {}
+[1.819721] (-) TimerEvent: {}
+[1.922328] (-) TimerEvent: {}
+[2.024791] (-) TimerEvent: {}
+[2.125334] (-) TimerEvent: {}
+[2.184010] (village_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[2.225784] (-) TimerEvent: {}
+[2.266002] (village_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.326294] (-) TimerEvent: {}
+[2.431499] (-) TimerEvent: {}
+[2.442435] (village_interfaces) StdoutLine: {'line': b'[ 27%] Built target village_interfaces__rosidl_typesupport_cpp\n'}
+[2.532560] (-) TimerEvent: {}
+[2.555752] (village_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o\x1b[0m\n'}
+[2.639071] (-) TimerEvent: {}
+[2.704995] (village_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o\x1b[0m\n'}
+[2.744708] (-) TimerEvent: {}
+[2.816070] (village_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o\x1b[0m\n'}
+[2.848888] (-) TimerEvent: {}
+[2.881090] (village_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.949117] (-) TimerEvent: {}
+[3.008812] (village_interfaces) StdoutLine: {'line': b'[ 38%] Built target village_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.049403] (-) TimerEvent: {}
+[3.065746] (village_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[3.071940] (village_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o\x1b[0m\n'}
+[3.149581] (-) TimerEvent: {}
+[3.195242] (village_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[3.255413] (-) TimerEvent: {}
+[3.302474] (village_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o\x1b[0m\n'}
+[3.362879] (-) TimerEvent: {}
+[3.411724] (village_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.470948] (-) TimerEvent: {}
+[3.537242] (village_interfaces) StdoutLine: {'line': b'[ 51%] Built target village_interfaces__rosidl_typesupport_c\n'}
+[3.575938] (-) TimerEvent: {}
+[3.656056] (village_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o\x1b[0m\n'}
+[3.678483] (-) TimerEvent: {}
+[3.779825] (-) TimerEvent: {}
+[3.884138] (-) TimerEvent: {}
+[3.936263] (village_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.995884] (-) TimerEvent: {}
+[4.101426] (-) TimerEvent: {}
+[4.211259] (-) TimerEvent: {}
+[4.236148] (village_interfaces) StdoutLine: {'line': b'[ 57%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.310768] (village_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[4.317578] (-) TimerEvent: {}
+[4.424101] (-) TimerEvent: {}
+[4.534271] (-) TimerEvent: {}
+[4.639416] (-) TimerEvent: {}
+[4.737438] (village_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.737643] (village_interfaces) StdoutLine: {'line': b'writing village_interfaces.egg-info/PKG-INFO\n'}
+[4.737747] (village_interfaces) StdoutLine: {'line': b'writing dependency_links to village_interfaces.egg-info/dependency_links.txt\n'}
+[4.737817] (village_interfaces) StdoutLine: {'line': b'writing top-level names to village_interfaces.egg-info/top_level.txt\n'}
+[4.739815] (-) TimerEvent: {}
+[4.748664] (village_interfaces) StdoutLine: {'line': b"reading manifest file 'village_interfaces.egg-info/SOURCES.txt'\n"}
+[4.764460] (village_interfaces) StdoutLine: {'line': b"writing manifest file 'village_interfaces.egg-info/SOURCES.txt'\n"}
+[4.847986] (-) TimerEvent: {}
+[4.848250] (village_interfaces) StdoutLine: {'line': b'[ 59%] Built target ament_cmake_python_build_village_interfaces_egg\n'}
+[4.955653] (-) TimerEvent: {}
+[4.986092] (village_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o\x1b[0m\n'}
+[5.064041] (-) TimerEvent: {}
+[5.164739] (-) TimerEvent: {}
+[5.265467] (-) TimerEvent: {}
+[5.265825] (village_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o\x1b[0m\n'}
+[5.365673] (-) TimerEvent: {}
+[5.468385] (-) TimerEvent: {}
+[5.569048] (-) TimerEvent: {}
+[5.670818] (-) TimerEvent: {}
+[5.773771] (village_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o\x1b[0m\n'}
+[5.777031] (-) TimerEvent: {}
+[5.879478] (-) TimerEvent: {}
+[5.981815] (-) TimerEvent: {}
+[6.016196] (village_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.084996] (-) TimerEvent: {}
+[6.185728] (-) TimerEvent: {}
+[6.246415] (village_interfaces) StdoutLine: {'line': b'[ 70%] Built target village_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.286930] (-) TimerEvent: {}
+[6.306557] (village_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o\x1b[0m\n'}
+[6.395514] (-) TimerEvent: {}
+[6.500593] (-) TimerEvent: {}
+[6.602543] (-) TimerEvent: {}
+[6.702943] (-) TimerEvent: {}
+[6.803635] (-) TimerEvent: {}
+[6.882972] (village_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.904416] (-) TimerEvent: {}
+[7.006317] (-) TimerEvent: {}
+[7.020001] (village_interfaces) StdoutLine: {'line': b'[ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.051129] (village_interfaces) StdoutLine: {'line': b'[ 76%] Built target village_interfaces\n'}
+[7.087903] (village_interfaces) StdoutLine: {'line': b'[ 78%] Built target village_interfaces__py\n'}
+[7.109109] (-) TimerEvent: {}
+[7.136304] (village_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o\x1b[0m\n'}
+[7.142115] (village_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o\x1b[0m\n'}
+[7.210896] (-) TimerEvent: {}
+[7.311461] (-) TimerEvent: {}
+[7.399176] (village_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o\x1b[0m\n'}
+[7.418181] (-) TimerEvent: {}
+[7.519759] (-) TimerEvent: {}
+[7.576989] (village_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.623293] (-) TimerEvent: {}
+[7.670433] (village_interfaces) StdoutLine: {'line': b'[ 87%] Built target village_interfaces__rosidl_generator_py\n'}
+[7.725574] (-) TimerEvent: {}
+[7.728267] (village_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.738736] (village_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.833202] (-) TimerEvent: {}
+[7.934408] (-) TimerEvent: {}
+[7.974407] (village_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.982017] (village_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.039381] (-) TimerEvent: {}
+[8.111527] (village_interfaces) StdoutLine: {'line': b'[ 95%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.111890] (village_interfaces) StdoutLine: {'line': b'[ 95%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.141231] (-) TimerEvent: {}
+[8.163020] (village_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.242351] (-) TimerEvent: {}
+[8.343457] (-) TimerEvent: {}
+[8.361009] (village_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.443593] (-) TimerEvent: {}
+[8.453751] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.483747] (village_interfaces) CommandEnded: {'returncode': 0}
+[8.544377] (-) TimerEvent: {}
+[8.645435] (-) TimerEvent: {}
+[8.678754] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'install'}
+[8.699166] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tzq/town_ws/build/village_interfaces'], 'cwd': '/home/tzq/town_ws/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tzq'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tzq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1636'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tzq'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tzq-vpc:@/tmp/.ICE-unix/1636,unix/tzq-vpc:/tmp/.ICE-unix/1636'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b2834be_cc0b_40f2_8ee7_0e72671535b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZBT5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-821fc0527f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.937'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tzq/town_ws/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.726443] (village_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.729664] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces\n'}
+[8.730059] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.730796] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.731399] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.h\n'}
+[8.731633] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.h\n'}
+[8.731854] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.732076] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__functions.h\n'}
+[8.732274] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__functions.c\n'}
+[8.732456] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.c\n'}
+[8.732624] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.h\n'}
+[8.732795] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.h\n'}
+[8.732963] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.h\n'}
+[8.733127] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.h\n'}
+[8.733293] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.h\n'}
+[8.733452] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.739273] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.739424] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.739502] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h\n'}
+[8.739566] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h\n'}
+[8.739663] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h\n'}
+[8.739725] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c\n'}
+[8.739784] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h\n'}
+[8.739841] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh\n'}
+[8.739901] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv\n'}
+[8.739970] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so\n'}
+[8.740026] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.740089] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.740145] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.740199] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.740253] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h\n'}
+[8.740306] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h\n'}
+[8.740358] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.740414] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.740471] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.740528] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h\n'}
+[8.740677] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.740807] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.740901] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.741005] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.741098] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.741250] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__traits.hpp\n'}
+[8.741498] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__struct.hpp\n'}
+[8.741642] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__builder.hpp\n'}
+[8.741707] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.hpp\n'}
+[8.741790] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__builder.hpp\n'}
+[8.741846] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__traits.hpp\n'}
+[8.741911] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.hpp\n'}
+[8.741960] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/sell_novel.hpp\n'}
+[8.742011] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.742362] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.749909] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp\n'}
+[8.750055] (-) TimerEvent: {}
+[8.750187] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp\n'}
+[8.750364] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp\n'}
+[8.750487] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp\n'}
+[8.750718] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.750884] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.751051] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.751226] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/dds_fastrtps\n'}
+[8.751481] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.751571] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.751708] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.751773] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.751888] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.751993] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.752058] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps\n'}
+[8.753963] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.754109] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.754248] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.754416] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.754520] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.754737] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h\n'}
+[8.754841] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h\n'}
+[8.754948] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.c\n'}
+[8.755100] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.c\n'}
+[8.755164] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.755226] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.755274] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.755812] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h\n'}
+[8.755897] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c\n'}
+[8.756727] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.757193] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.758803] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so\n'}
+[8.759029] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.759192] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[8.759364] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv\n'}
+[8.759477] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail\n'}
+[8.759534] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.759580] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.cpp\n'}
+[8.759636] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__type_support.cpp\n'}
+[8.759678] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.759720] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[8.764774] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[8.765131] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.765241] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp\n'}
+[8.766957] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.767128] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.769162] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.769379] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.769662] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh\n'}
+[8.769768] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv\n'}
+[8.769893] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.770240] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.770535] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.770690] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.770937] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.771299] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces\n'}
+[8.771915] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.772021] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.772071] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.772223] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.772277] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.772663] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py\n'}
+[8.772778] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so\n'}
+[8.773118] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv\n'}
+[8.773424] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money.py\n'}
+[8.773567] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money_s.c\n'}
+[8.773678] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/__init__.py\n'}
+[8.773722] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_sell_novel_s.c\n'}
+[8.773764] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_sell_novel.py\n'}
+[8.773803] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.773886] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg\n'}
+[8.774835] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel_s.c\n'}
+[8.774916] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py\n'}
+[8.774963] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py\n'}
+[8.819483] (village_interfaces) StdoutLine: {'line': b"Listing '/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...\n"}
+[8.819654] (village_interfaces) StdoutLine: {'line': b"Listing '/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...\n"}
+[8.819710] (village_interfaces) StdoutLine: {'line': b"Listing '/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv'...\n"}
+[8.823302] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.823733] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.823982] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.824585] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.824812] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.825221] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.826387] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so\n'}
+[8.827029] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.827285] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl\n'}
+[8.827514] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl\n'}
+[8.827691] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.idl\n'}
+[8.827853] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg\n'}
+[8.828027] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv\n'}
+[8.828184] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg\n'}
+[8.828309] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg\n'}
+[8.828426] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.srv\n'}
+[8.828569] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Request.msg\n'}
+[8.828716] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Response.msg\n'}
+[8.828852] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces\n'}
+[8.829029] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces\n'}
+[8.829576] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh\n'}
+[8.829704] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.829833] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh\n'}
+[8.829963] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv\n'}
+[8.830148] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash\n'}
+[8.830284] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh\n'}
+[8.830404] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh\n'}
+[8.830468] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv\n'}
+[8.830533] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/package.dsv\n'}
+[8.831331] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces\n'}
+[8.832474] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.832626] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.833741] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.833894] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.834363] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.835510] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.835625] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.836182] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.836320] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.836772] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.836924] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.837390] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.837517] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.837992] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.838146] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.838606] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.838732] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.838842] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.839047] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.839287] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.839745] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.840037] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.840139] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.840320] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.840501] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake\n'}
+[8.840640] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake\n'}
+[8.840718] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_interfaces/share/village_interfaces/package.xml\n'}
+[8.844264] (village_interfaces) CommandEnded: {'returncode': 0}
+[8.850322] (-) TimerEvent: {}
+[8.955090] (-) TimerEvent: {}
+[9.058015] (-) TimerEvent: {}
+[9.161235] (-) TimerEvent: {}
+[9.222897] (village_interfaces) JobEnded: {'identifier': 'village_interfaces', 'rc': 0}
+[9.226382] (-) EventReactorShutdown: {}

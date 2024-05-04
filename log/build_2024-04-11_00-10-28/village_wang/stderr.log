@@ -1,0 +1,11 @@
+[01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KsingleDogNode::singleDogNode(std::string)[m[K’:
+[01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:22:103:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid singleDogNode::novel_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+   22 | sgs::msg::String>("sexy_girl",10,std::bind([01;31m[KsingleDogNode::novel_callback[m[K,this,_1));
+      |                                            [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:13:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 |     void [01;36m[Knovel_callback[m[K(const std_msgs::msg::String::SharedPtr novels)
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

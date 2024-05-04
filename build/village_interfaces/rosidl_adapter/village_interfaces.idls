@@ -1,0 +1,3 @@
+/home/tzq/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/tzq/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/tzq/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

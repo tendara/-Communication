@@ -1,0 +1,22 @@
+[0.079s] Invoking command in '/home/tzq/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tzq/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/tzq/town_ws/install/village_interfaces
+[0.365s] -- The C compiler identification is GNU 11.4.0
+[0.544s] -- The CXX compiler identification is GNU 11.4.0
+[0.566s] -- Detecting C compiler ABI info
+[0.768s] -- Detecting C compiler ABI info - done
+[0.776s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.779s] -- Detecting C compile features
+[0.781s] -- Detecting C compile features - done
+[0.787s] -- Detecting CXX compiler ABI info
+[0.927s] -- Detecting CXX compiler ABI info - done
+[0.931s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.932s] -- Detecting CXX compile features
+[0.933s] -- Detecting CXX compile features - done
+[0.961s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.284s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.387s] -- Added test 'xmllint' to check XML markup files
+[1.391s] -- Configuring done
+[1.402s] -- Generating done
+[1.404s] -- Build files have been written to: /home/tzq/town_ws/build/village_interfaces
+[1.414s] Invoked command in '/home/tzq/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tzq/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/tzq/town_ws/install/village_interfaces

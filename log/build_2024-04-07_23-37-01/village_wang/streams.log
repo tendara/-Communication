@@ -1,0 +1,46 @@
+[0.086s] Invoking command in '/home/tzq/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.556s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.557s]                  from [01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[3.557s] [01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KsingleDogNode::singleDogNode(std::string)[m[K’:
+[3.557s] [01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:12:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.557s]    12 |  RCLCPP_INFO(this->get_logger(),[01;35m[K"danshengou%s"[m[K,name);
+[3.557s]       |                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.557s] [01m[K/home/tzq/town_ws/src/village_wang/src/wang2.cpp:12:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.557s]    12 |  RCLCPP_INFO(this->get_logger(),"danshengou[01;36m[K%s[m[K",name);
+[3.557s]       |                                            [01;36m[K~^[m[K
+[3.557s]       |                                             [01;36m[K|[m[K
+[3.557s]       |                                             [01;36m[Kchar*[m[K
+[4.361s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.564s] [100%] Built target wang2_node
+[4.593s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[4.665s] Invoking command in '/home/tzq/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang
+[4.682s] -- Install configuration: ""
+[4.683s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[4.683s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[4.684s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[4.686s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[4.687s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[4.688s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[4.689s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[4.689s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[4.689s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[4.690s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[4.690s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/package.dsv
+[4.690s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[4.691s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[4.691s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[4.691s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/package.xml
+[4.692s] -- Installing: /home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node
+[4.698s] -- Set runtime path of "/home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[4.704s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang

@@ -1,0 +1,26 @@
+[0.617s] Invoking command in '/home/tzq/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tzq/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[0.790s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.826s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[13.792s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[14.561s] [100%] Built target wang2_node
+[14.596s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tzq/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[14.708s] Invoking command in '/home/tzq/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tzq/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang
+[14.733s] -- Install configuration: ""
+[14.733s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[14.733s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[14.734s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[14.734s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[14.734s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[14.735s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[14.735s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[14.735s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[14.736s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[14.736s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[14.736s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/package.dsv
+[14.745s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[14.746s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[14.746s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[14.747s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/package.xml
+[14.749s] -- Installing: /home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node
+[14.762s] -- Set runtime path of "/home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[14.776s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tzq/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang

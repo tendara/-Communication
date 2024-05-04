@@ -1,0 +1,47 @@
+[0.104s] Invoking command in '/home/tzq/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tzq/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[0.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.294s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.297s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.737s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.738s] -- Configured cppcheck include dirs: 
+[0.739s] -- Configured cppcheck exclude dirs and/or files: 
+[0.741s] -- Added test 'lint_cmake' to check CMake code style
+[0.743s] -- Added test 'uncrustify' to check C / C++ code style
+[0.744s] -- Configured uncrustify additional arguments: 
+[0.745s] -- Added test 'xmllint' to check XML markup files
+[0.747s] -- Configuring done
+[0.765s] -- Generating done
+[0.769s] -- Build files have been written to: /home/tzq/town_ws/build/village_wang
+[0.799s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.829s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[8.325s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[8.757s] [100%] Built target wang2_node
+[8.774s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tzq/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tzq/town_ws/build/village_wang -- -j2 -l2
+[8.823s] Invoking command in '/home/tzq/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tzq/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang
+[8.833s] -- Install configuration: ""
+[8.834s] -- Installing: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[8.835s] -- Installing: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[8.837s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[8.837s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[8.839s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[8.840s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[8.841s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[8.841s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[8.842s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[8.842s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[8.844s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/package.dsv
+[8.845s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[8.845s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[8.846s] -- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[8.846s] -- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/package.xml
+[8.848s] -- Installing: /home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node
+[8.858s] -- Set runtime path of "/home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[8.862s] Invoked command in '/home/tzq/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tzq/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tzq/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tzq/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tzq/town_ws/build/village_wang

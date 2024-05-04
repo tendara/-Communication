@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict()}
+[0.000496] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.001292] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.101696] (-) TimerEvent: {}
+[0.113231] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.203115] (-) TimerEvent: {}
+[0.307170] (-) TimerEvent: {}
+[0.408360] (-) TimerEvent: {}
+[0.510965] (-) TimerEvent: {}
+[0.614448] (-) TimerEvent: {}
+[0.716444] (-) TimerEvent: {}
+[0.721569] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.723839] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.729047] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tzq/town_ws/build/village_wang', '--', '-j2', '-l2'], 'cwd': '/home/tzq/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tzq'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tzq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tzq/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1636'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tzq/town_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tzq'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tzq-vpc:@/tmp/.ICE-unix/1636,unix/tzq-vpc:/tmp/.ICE-unix/1636'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aee56815_5a62_4351_8141_85225be1ef02'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZBT5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-821fc0527f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tzq/town_ws/install/village_li:/home/tzq/town_ws/install/village_wang:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tzq/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tzq/town_ws/install/village_wang:/home/tzq/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.816749] (-) TimerEvent: {}
+[0.896056] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.920980] (-) TimerEvent: {}
+[0.938634] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[1.032342] (-) TimerEvent: {}
+[1.137732] (-) TimerEvent: {}
+[1.238935] (-) TimerEvent: {}
+[1.339567] (-) TimerEvent: {}
+[1.444220] (village_li) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/village_li', 'build', '--build-base', '/home/tzq/town_ws/build/village_li/build', 'install', '--record', '/home/tzq/town_ws/build/village_li/install.log', '--single-version-externally-managed'], 'cwd': '/home/tzq/town_ws/src/village_li', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'tzq', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tzq', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/tzq/town_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1636', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tzq/town_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tzq', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tzq', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tzq-vpc:@/tmp/.ICE-unix/1636,unix/tzq-vpc:/tmp/.ICE-unix/1636', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aee56815_5a62_4351_8141_85225be1ef02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZBT5J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-821fc0527f.sock', 'GNOME_TERMINAL_SERVICE': ':1.260', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tzq/town_ws/install/village_li:/home/tzq/town_ws/install/village_wang:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tzq/town_ws/build/village_li', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tzq/town_ws/build/village_li/prefix_override:/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tzq/town_ws/install/village_wang'}, 'shell': False}
+[1.446631] (-) TimerEvent: {}
+[1.549582] (-) TimerEvent: {}
+[1.650196] (-) TimerEvent: {}
+[1.756193] (-) TimerEvent: {}
+[1.857023] (-) TimerEvent: {}
+[1.972112] (-) TimerEvent: {}
+[2.073381] (-) TimerEvent: {}
+[2.173875] (-) TimerEvent: {}
+[2.203110] (village_li) StdoutLine: {'line': b'running egg_info\n'}
+[2.203297] (village_li) StdoutLine: {'line': b'writing ../../build/village_li/village_li.egg-info/PKG-INFO\n'}
+[2.203373] (village_li) StdoutLine: {'line': b'writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt\n'}
+[2.203421] (village_li) StdoutLine: {'line': b'writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt\n'}
+[2.203463] (village_li) StdoutLine: {'line': b'writing requirements to ../../build/village_li/village_li.egg-info/requires.txt\n'}
+[2.203520] (village_li) StdoutLine: {'line': b'writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt\n'}
+[2.211842] (village_li) StdoutLine: {'line': b"reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.214899] (village_li) StdoutLine: {'line': b"writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.215635] (village_li) StdoutLine: {'line': b'running build\n'}
+[2.215951] (village_li) StdoutLine: {'line': b'running build_py\n'}
+[2.216900] (village_li) StdoutLine: {'line': b'running install\n'}
+[2.223541] (village_li) StdoutLine: {'line': b'running install_lib\n'}
+[2.225907] (village_li) StdoutLine: {'line': b'running install_data\n'}
+[2.230324] (village_li) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.230748] (village_li) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.230971] (village_li) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.237575] (village_li) StdoutLine: {'line': b"removing '/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.238479] (village_li) StdoutLine: {'line': b'Copying ../../build/village_li/village_li.egg-info to /home/tzq/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info\n'}
+[2.240884] (village_li) StdoutLine: {'line': b'running install_scripts\n'}
+[2.276750] (-) TimerEvent: {}
+[2.281645] (village_li) StdoutLine: {'line': b'Installing li4_node script to /home/tzq/town_ws/install/village_li/lib/village_li\n'}
+[2.283413] (village_li) StdoutLine: {'line': b"writing list of installed files to '/home/tzq/town_ws/build/village_li/install.log'\n"}
+[2.325071] (village_li) CommandEnded: {'returncode': 0}
+[2.376912] (-) TimerEvent: {}
+[2.447537] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[2.477321] (-) TimerEvent: {}
+[2.577999] (-) TimerEvent: {}
+[2.679359] (-) TimerEvent: {}
+[2.780787] (-) TimerEvent: {}
+[2.881361] (-) TimerEvent: {}
+[2.987883] (-) TimerEvent: {}
+[3.088576] (-) TimerEvent: {}
+[3.189506] (-) TimerEvent: {}
+[3.290257] (-) TimerEvent: {}
+[3.391131] (-) TimerEvent: {}
+[3.491671] (-) TimerEvent: {}
+[3.592498] (-) TimerEvent: {}
+[3.693343] (-) TimerEvent: {}
+[3.794549] (-) TimerEvent: {}
+[3.896346] (-) TimerEvent: {}
+[3.997401] (-) TimerEvent: {}
+[4.098345] (-) TimerEvent: {}
+[4.198896] (-) TimerEvent: {}
+[4.299680] (-) TimerEvent: {}
+[4.400501] (-) TimerEvent: {}
+[4.501357] (-) TimerEvent: {}
+[4.602382] (-) TimerEvent: {}
+[4.706830] (-) TimerEvent: {}
+[4.810731] (-) TimerEvent: {}
+[4.911866] (-) TimerEvent: {}
+[5.012343] (-) TimerEvent: {}
+[5.113130] (-) TimerEvent: {}
+[5.216530] (-) TimerEvent: {}
+[5.316999] (-) TimerEvent: {}
+[5.418826] (-) TimerEvent: {}
+[5.519437] (-) TimerEvent: {}
+[5.623872] (-) TimerEvent: {}
+[5.726445] (-) TimerEvent: {}
+[5.834918] (-) TimerEvent: {}
+[5.936171] (-) TimerEvent: {}
+[6.038861] (-) TimerEvent: {}
+[6.146363] (-) TimerEvent: {}
+[6.255260] (-) TimerEvent: {}
+[6.356321] (-) TimerEvent: {}
+[6.457445] (-) TimerEvent: {}
+[6.566015] (-) TimerEvent: {}
+[6.671691] (-) TimerEvent: {}
+[6.776205] (-) TimerEvent: {}
+[6.887218] (-) TimerEvent: {}
+[6.988431] (-) TimerEvent: {}
+[7.089834] (-) TimerEvent: {}
+[7.196478] (-) TimerEvent: {}
+[7.304378] (-) TimerEvent: {}
+[7.405273] (-) TimerEvent: {}
+[7.507702] (-) TimerEvent: {}
+[7.609160] (-) TimerEvent: {}
+[7.710491] (-) TimerEvent: {}
+[7.813045] (-) TimerEvent: {}
+[7.915746] (-) TimerEvent: {}
+[8.019632] (-) TimerEvent: {}
+[8.120492] (-) TimerEvent: {}
+[8.228772] (-) TimerEvent: {}
+[8.336103] (-) TimerEvent: {}
+[8.445009] (-) TimerEvent: {}
+[8.545978] (-) TimerEvent: {}
+[8.646925] (-) TimerEvent: {}
+[8.754634] (-) TimerEvent: {}
+[8.862561] (-) TimerEvent: {}
+[8.965479] (-) TimerEvent: {}
+[9.068908] (-) TimerEvent: {}
+[9.170458] (-) TimerEvent: {}
+[9.271412] (-) TimerEvent: {}
+[9.374368] (-) TimerEvent: {}
+[9.475283] (-) TimerEvent: {}
+[9.585972] (-) TimerEvent: {}
+[9.688491] (-) TimerEvent: {}
+[9.801925] (-) TimerEvent: {}
+[9.911347] (-) TimerEvent: {}
+[10.015479] (-) TimerEvent: {}
+[10.125839] (-) TimerEvent: {}
+[10.226605] (-) TimerEvent: {}
+[10.327180] (-) TimerEvent: {}
+[10.427772] (-) TimerEvent: {}
+[10.528637] (-) TimerEvent: {}
+[10.635416] (-) TimerEvent: {}
+[10.737754] (-) TimerEvent: {}
+[10.838256] (-) TimerEvent: {}
+[10.939095] (-) TimerEvent: {}
+[11.039977] (-) TimerEvent: {}
+[11.140445] (-) TimerEvent: {}
+[11.241105] (-) TimerEvent: {}
+[11.341755] (-) TimerEvent: {}
+[11.442348] (-) TimerEvent: {}
+[11.542925] (-) TimerEvent: {}
+[11.643590] (-) TimerEvent: {}
+[11.744186] (-) TimerEvent: {}
+[11.845177] (-) TimerEvent: {}
+[11.945930] (-) TimerEvent: {}
+[12.046538] (-) TimerEvent: {}
+[12.147211] (-) TimerEvent: {}
+[12.248484] (-) TimerEvent: {}
+[12.348925] (-) TimerEvent: {}
+[12.449505] (-) TimerEvent: {}
+[12.550416] (-) TimerEvent: {}
+[12.651200] (-) TimerEvent: {}
+[12.751851] (-) TimerEvent: {}
+[12.852791] (-) TimerEvent: {}
+[12.953278] (-) TimerEvent: {}
+[13.054068] (-) TimerEvent: {}
+[13.154504] (-) TimerEvent: {}
+[13.255565] (-) TimerEvent: {}
+[13.356058] (-) TimerEvent: {}
+[13.457232] (-) TimerEvent: {}
+[13.558346] (-) TimerEvent: {}
+[13.659050] (-) TimerEvent: {}
+[13.760386] (-) TimerEvent: {}
+[13.861472] (-) TimerEvent: {}
+[13.904879] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[13.961729] (-) TimerEvent: {}
+[14.062683] (-) TimerEvent: {}
+[14.163110] (-) TimerEvent: {}
+[14.263659] (-) TimerEvent: {}
+[14.364292] (-) TimerEvent: {}
+[14.465529] (-) TimerEvent: {}
+[14.566641] (-) TimerEvent: {}
+[14.672452] (-) TimerEvent: {}
+[14.673629] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[14.708758] (village_wang) CommandEnded: {'returncode': 0}
+[14.776129] (-) TimerEvent: {}
+[14.792563] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[14.821258] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tzq/town_ws/build/village_wang'], 'cwd': '/home/tzq/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tzq'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tzq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tzq/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1636'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tzq/town_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tzq'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tzq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tzq-vpc:@/tmp/.ICE-unix/1636,unix/tzq-vpc:/tmp/.ICE-unix/1636'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aee56815_5a62_4351_8141_85225be1ef02'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZBT5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-821fc0527f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tzq/town_ws/install/village_li:/home/tzq/town_ws/install/village_wang:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tzq/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f1ee901fb2a06acfb48accc65efed47'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tzq/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tzq/town_ws/install/village_wang:/home/tzq/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[14.845558] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.846185] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[14.846558] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[14.846899] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[14.847247] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[14.847577] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[14.847896] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[14.848216] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[14.848529] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[14.848849] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[14.849180] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[14.849499] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[14.858291] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[14.858878] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[14.859265] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[14.859680] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/tzq/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[14.862024] (village_wang) StdoutLine: {'line': b'-- Installing: /home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[14.875564] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/tzq/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[14.876370] (-) TimerEvent: {}
+[14.888939] (village_wang) CommandEnded: {'returncode': 0}
+[14.992352] (-) TimerEvent: {}
+[15.095129] (-) TimerEvent: {}
+[15.197643] (-) TimerEvent: {}
+[15.235721] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[15.238192] (-) EventReactorShutdown: {}
